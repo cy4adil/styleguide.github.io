@@ -1,0 +1,123 @@
+h1 {
+    font-family: Mulish, sans-serif;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-box {
+    border: 2px solid gray;
+    width: 95%;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.color-section {
+    height: 410px;
+}
+
+.color-section div {
+    display: inline-block;
+    width: 32%;
+    height: 32%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#white-smoke {
+    background-color: #f5f5f5;
+}
+
+#crimson {
+    background-color: #DC143C;
+    color: white;
+}
+
+#steel-blue {
+    background-color: #4682b4;
+    color: white;
+}
+
+#light-green {
+    background-color: #90EE90;
+    color: black;
+}
+
+
+.font-section {
+    height: 40%;
+    text-wrap: wrap;
+}
+
+.font-section div {
+    display: inline-block;
+    width: 49%;
+    height: 30%;
+    margin-top: 20px;
+}
+
+.font-section div h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: underline;   
+}
+
+.font-section div p {
+    font-size: 17px;
+}
+
+.font-section div p:first-child {
+    font-weight: 400;
+}
+
+.font-section div p:nth-child(3) {
+    font-weight: 700;
+}
+
+.font-section div p:last-child {
+    font-style: italic;
+}
+
+.mulish-font {
+    font-family: Mulish, sans-serif;
+}
+
+.quicksand-font {
+    font-family: "Quicksand", sans-serif;
+}
+
+.inconsolata-font {
+    font-family: "Inconsolata", monospace;
+}
+
+.text-style-section {
+    height: 50%;
+}
+
+.text-style-section li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-style-section .main-heading {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subheading {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.layout-style-section {
+    height: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
